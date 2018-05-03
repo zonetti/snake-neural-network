@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, #top {
+  background: #FFF;
+}
+
+#wrapper {
+  width: 1030px;
+  margin: 0 auto;
+}
+
+#top {
+  overflow: hidden;
+  height: 350px;
+}
+
+#chart, #status {
+  float: left;
+}
+
+#chart {
+  width: 600px;
+}
+
+#status {
+  width: 430px;
+  height: 322px;
+}
+
+#status p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+}
+
+canvas {
+  border: 1px solid #EEE;
+  margin: 0 1px 1px 0;
+}

@@ -6,7 +6,8 @@ Config.warnings = false
 const neat = new Neat(6, 2, null, {
     popsize: GAMES,
     elitism: ELITISM,
-    mutationRate: MUTATION_RATE
+    mutationRate: MUTATION_RATE,
+    mutationAmount: MUTATION_AMOUNT
   }
 )
 
